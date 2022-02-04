@@ -1,0 +1,108 @@
+
+    i img{
+        width: 50px;
+    }
+/* part 1 */
+.navbar-nav {
+    display: flex;
+    gap: 55px;
+    margin-left: 300px;
+    
+}
+.navbar-nav button{
+    width:125px;
+   
+} 
+/* part 2 */
+.side-area{
+    margin-left: 75px;
+    width: 75%;
+    padding: 30px;
+    
+}
+.side-area P{
+    padding-left:30px ;
+    border-left: 1px solid black;
+    background: rgb(170, 165, 165);
+    
+}
+.side-area button{
+    width: 150px;
+    /* background: rgb(248, 243, 243); */
+    height: 55px;
+}
+/* part 3 */
+.part_3{
+    background: #FFFFFF;
+    height: 760px;
+}
+
+.tow_img img{
+    width: 92%;
+   
+}
+.side-icon{
+    background: rgb(223, 205, 205);
+    display: flex;
+    position: relative;
+    top: 20px;
+    height: 122px;
+    width: 100%;
+    
+}
+.icon img{
+    width: 50px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+}
+.text{
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    width: 80%;
+   
+}
+.side-icon_1{
+    background: rgb(223, 205, 205);
+    display: flex;
+    position: relative;
+    top: 40px;
+    height: 122px;
+    
+}
+.side-icon_2{
+    background: rgb(223, 205, 205);
+    display: flex;
+    position: relative;
+    top: 60px;
+    height: 122px;
+    
+}
+/* part 4 */
+.icon_side{
+    display: grid;
+    /* display: flex; */
+    position: relative;
+    top: 20px;
+    height: 122px;
+    width: 100%;
+    
+}
+.icon_side img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    background: red; 
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+    
+
