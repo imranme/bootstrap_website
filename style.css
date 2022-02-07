@@ -3,31 +3,23 @@
         width: 50px;
     }
 /* part 1 */
-/* header{
-    background:#FFFFFF;
-    position: fixed;
-    margin: 0 auto;
-} */
-.navbar-nav {
+/* .navbar-nav {
     display: flex;
-    gap: 55px;
-    margin-left: 300px;
-   
-    
-    
-}
+    justify-content: flex-end;
+     
+} */
 .navbar-nav button{
     width:125px;
    
 } 
 /* part 2 */
 .part_2_all{
-    background: #F2F6F7;
+    background: #c9d6da;
 }
 .side-area{
     margin-left: 75px;
     width: 75%;
-    padding: 30px;
+    padding: 0px;
     
 }
 .side-area P{
@@ -44,11 +36,11 @@
 /* part 3 */
 .part_3{
     background: #FFFFFF;
-    /* height: 800px; */
+
     position: relative;
     top: 70px;
     bottom: 70px;
-    padding: 300px;
+   
 }
 
 .tow_img img{
@@ -56,7 +48,7 @@
    
 }
 .side-icon{
-    background: rgb(223, 205, 205);
+    background: rgb(240, 236, 236);
     display: flex;
     position: relative;
     top: 20px;
@@ -113,8 +105,8 @@
     height: 30px;
     align-self: start;
     position: relative;
-    top: 35px;
-    background: red; 
+    top: 30px;
+    background: #F5DFDC; 
     border-radius: 20px;
     padding: 7px;
     
@@ -125,8 +117,14 @@
     left: 32px;
    
 }
+.side-img img{
+    width: 100%;
+}
 /* part 5 */
-
+.part-five-card{
+    position: relative;
+    top: 30px;
+}
 /* p 5 end */
 
 /* part 6 */
@@ -134,7 +132,6 @@
 .back_img{
     background-image: url(/all/img/22.jpg);
     width: 100%;
-    height: 724px;
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -147,17 +144,30 @@
 .part-6-bcak{
     position: relative;
     top: 180px;
-    background: #af7575;
-    width: 110%;
-    padding: 30px;
-    
-}
-part_6 img {
-    padding: 30px;
+    background: #F2F6F7;
     width: 100%;
-    margin-right: 30px;
+    padding: 30px;
     
 }
+.part_6{
+    position: relative;
+    right: 30px;
+  
+    padding: 30px;
+}
+.part_6 img {
+   
+    width: 100%;
+    
+}
+.part_6_text {
+    background: #aea4b6;
+    position: relative;
+    top: 30px;
+    height: 87%;
+    padding: 30px;
+}
+
 
 /* part 7 */
 .part_7 img{
