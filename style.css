@@ -114,7 +114,112 @@ i img{
     top: 30px;
 }
 /* p 5 end */
+/ Upcomming Section stirt /
+    .upcomming_section{
+      height: 1000px;
+    }
+     .Hero_ac{
+      background-image: url(img/22.jpg);
+      background-attachment: fixed;
+      height: 700px;
+    }
+    .Hero_ab{
+      position: relative;
+      padding: 22px;
+    }
+    .writing-top{
+      position: absolute;
+      top: 120px;
+      padding-right: 550px;
+    }
+    .writing-top h5{
+      padding: 0;
+      color: #ddd;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .writing-top h1{
+      padding: 0;
+      font-size: 45px;
+      font-weight: 701;
+      color: #ddd;
+    }
+    .Hero_bc{
+      position: absolute;
+      top: 340px;
+      background-color: #fff;
+      padding: 20px 10px;
+      box-shadow: 0px 3px 14px -8px;
+    }
+    .left__carousel{
+    }
+    .left__carousel img{
+      height: 500px;
+      width: 100%;
+    }
+    .right__carousel{
+      background-color:#dddddd7a;
+    }
+    .right__carousel{
+      padding: 40px 30px;
+    }
+    .right__carousel .top_write h5{
+      color: tomato;
+      font-size: 18px;
+    }
+    .right__carousel .top_write h1{
+      font-weight: 601;
+      font-size: 40px;
+    }
+    .hero__part ul{
+      padding: 20px 0; 
+    }
+    .hero__part ul li{
+      list-style: none;
+      padding: 8px 0;
+      color: #777373;
+      font-weight: 600;
+    }
+    .hero__part .right_side ul{
+      text-align: end; 
+      padding-right: 18px;
+    }
+    .right__carousel a button{
+      color: #ddd;
+      font-weight: 600;
+      background-color: tomato;
+      padding: 20px 50px;
+      border: 1px solid tomato;
+    }
+    .right__carousel a button:hover{
+      color: #000;
+      background-color: #fff;
+      border: 1px solid #000;
+      transition: 0.8s;
+      transform: rotateX(0%);
+    }
 
+    .upcomming{
+      position: relative;
+    }
+    .upcomming .edit_button{
+      position: absolute;
+      background-color: tomato;
+      width: 60px;
+      height: 60px;
+      top: -140px;
+      opacity: 0.8;
+    }
+    .upcomming .edit1{
+      left: 980px;
+    }
+    .upcomming .edit2{
+      right: -10px;
+    }
+    .upcomming .hidden__btn{
+      display: none;
+    }/ Upcomming Section End /
 /* part 6 */
 
 .back_img{
@@ -176,20 +281,82 @@ i img{
 
 /* part 12 */
 
+/* part 15  */
+.part_15{
+    background: #FF5A3C;
+    position: relative;
+    top: 30px;
+    height: 150px;
 
-.footer-part{
+}
+
+/* / Footer  / */
+footer{
+    background: #171B2A;
+    color: #F2F6F7;
+    /* padding-top: 12%; */
+}
+.footer-top {
+	padding-top: 10%;
+}
+footer h3{
+    font-weight: 700;
+}
+
+footer i{
+    padding-right: 10px;
+}
+footer p{
+    color: #F2F6F7;
+}
+.footer-mail input{
+    padding: 15px 10px;
+}
+.footer-mail i{
+    padding: 21px 22px;
+    background-color: #FF5A3C;
+    color: #F2F6F7;
+}
+.footer-end-icone li i{
+    float: left;
+    padding-left: 8px;
+    padding-top: 8%;
+}
+.footer-end-icone li:first-child i{
+    padding-left: 0;
+}
+
+.footer-top li{
+    list-style: none;
+}
+
+/* footer-last */
+.footer-last{
+   
+    color: wheat;
+    height: 180px;
     position: relative;
     top: 50px;
+   
+    
+   
 }
 
-.footer-adress{
+
+.footer-last a{
+ position: relative;
+ text-decoration: none;
+
 
 }
-
-.footer-adress ul li{
+.footer-last ul li {
     list-style: none;
-    display: block;
-    margin-top: 8px;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: var(--ltn__heading-font);
+    font-weight: 600;
 }
 
 
